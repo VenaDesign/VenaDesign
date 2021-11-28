@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #2b3349;
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    color: #2b3349;
+    text-transform: uppercase;
+    padding-top: 80px;
+
+}
+
+
+#home {
+    background-image: url(imagenes/header.png);
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+}
+
+
+
+a {
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2b3349;
+}
+
+a:hover {
+
+    color: #b96139;
+
+}
+
+.color:hover {
+
+    color: #b96139;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+    font-size: smaller;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+}
+
+#footer {
+    padding-top: 30px;
+}
+
+#contacto {
+    background-image: url(imagenes/contactanos.jpg);
+    background-size: cover;
+    height: 400px;
+
+}
+
+#contactanos {
+    color: #2b3349;
+}
+
+.color {
+    color: #2b3349;
+}
+
+.margen {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.borde {
+    border-left: 3px solid rosybrown;
+
+}
+
+.texto1 {
+
+    text-align: justify;
+}
+
+.container-table {
+    display: table;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.parrafo {
+    font-size: 75%;
+}
